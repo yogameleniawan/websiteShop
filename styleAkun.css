@@ -1,0 +1,9 @@
+.item{
+	box-shadow: 3px 3px 3px grey;
+}
+
+.item:hover{
+	color: #0ec1bb;
+	box-shadow: 7px 7px 7px grey;
+	transition:all 0.3s;
+}

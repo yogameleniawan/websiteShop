@@ -1,0 +1,26 @@
+html {
+  scroll-behavior: smooth;
+}
+.order{
+	border-radius: 20px;
+	background-color: #0ec1bb;
+	width: 2px;
+	height: 15px;
+}
+
+.order:hover{
+	color: white;
+	text-decoration: bold;
+	background-color: #303e49;
+	transition:all 0.1s;
+}
+
+.item{
+	box-shadow: 3px 3px 3px grey;
+}
+
+.item:hover{
+	color: #0ec1bb;
+	box-shadow: 7px 7px 7px grey;
+	transition:all 0.3s;
+}

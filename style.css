@@ -1,0 +1,89 @@
+html {
+  scroll-behavior: smooth;
+}
+header{
+	width: 100%;
+	height: 50px;
+}
+.menu{
+	font-family: Bahnschrift;
+	color: white;
+	width: 115px;
+	height: 40px;
+}
+.login{
+	border-radius: 20px;
+	background-color: #0ec1bb;
+	width: 100px;
+	height: 35px;
+}
+.garis:hover{
+	border-bottom: solid 1px #0ec1bb;
+}
+.login:hover{
+	color: black;
+	text-decoration: bold;
+	background-color: #303e49;
+	transition:all 0.1s;
+}
+.sidenav {
+	font-family: Bahnschrift;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #05131d;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+		background-color: #303e49;
+  color: white;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.submit:hover{
+	background-color: #303e49;
+	transition:all 0.1s;
+}
+.order{
+	border-radius: 20px;
+	background-color: #0ec1bb;
+	width: 100px;
+	height: 35px;
+}
+.order:hover{
+	color: white;
+	text-decoration: bold;
+	background-color: #303e49;
+	transition:all 0.1s;
+}
+.content:hover{
+	-webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
